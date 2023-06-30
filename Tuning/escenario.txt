@@ -1,0 +1,26 @@
+## File that contains the description of the parameters of the target
+## algorithm.
+parameterFile = "parametros.txt"
+
+## Directory where the programs will be run.
+execDir = "../"
+
+## File that contains a list of training instances and optionally
+## additional parameters for them. If trainInstancesDir is provided, irace
+## will search for the files in this folder.
+## Por lo que entiendo se llaman datos especificos de prueba, 
+## para este caso debo usar mi librería de datos por lo que dejare comentado
+trainInstancesFile = "instances-list.txt"
+
+## Script called for each configuration that executes the target algorithm
+## to be tuned. See templates.
+## targetRunner = "../"
+
+## Maximum number of runs (invocations of targetRunner) that will be
+## performed. It determines the maximum budget of experiments for the
+## tuning.
+maxExperiments = 5
+
+## Maximum number of decimal places that are significant for numerical
+## (real) parameters.
+digits = 4

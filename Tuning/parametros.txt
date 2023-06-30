@@ -1,0 +1,8 @@
+## Parametros de entrada algoritmos SA IRace
+
+# name              switches                type    values                  conditions
+Ciclos_t            "--Ciclos_t"			c       (10,20,30)
+Ciclos_s            "--Ciclos_s"            c       (10,20,30)
+T                   "--T"                   c       (100,1000,10000)
+alpha               "--alpha"               r       (0.5, 0.99)
+modificacion        "--modificacion"        r       (0.3,0.8)
